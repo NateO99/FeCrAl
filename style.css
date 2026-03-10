@@ -17,7 +17,7 @@
 
 body {
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif ;
   background: var(--bg);
   color: var(--text);
 }
@@ -43,11 +43,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   z-index: 1000;
-}
-
-nav h1 {
-  color: var(--accent);
-  margin: 0;
+  height: 10vh;
 }
 
 nav ul {
@@ -73,7 +69,6 @@ nav a:hover {
 .hero {
   height: 90vh;
   background: url(assets/christopher-burns-8KfCR12oeUM-unsplash.jpg) center/cover no-repeat;
-  z-index: 1001;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -197,6 +192,7 @@ footer {
   text-align: center;
   padding: 40px 8%;
   color: var(--muted);
+  font-size:14px ;
 }
 
 /* ========================= */
@@ -221,7 +217,7 @@ footer {
 
   /* About text full width */
   .about-text {
-    margin: 0;
+    margin: 5%;
   }
 
   /* Reduce nav spacing */
@@ -276,6 +272,7 @@ footer {
 
 @media (max-width: 480px) {
 
+  
   section {
     padding: 60px 5%;
   }
@@ -290,5 +287,9 @@ footer {
 
   h2 {
     font-size: 24px;
+  }
+
+  .card p {
+    margin: 20px;
   }
 }

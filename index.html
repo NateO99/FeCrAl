@@ -17,7 +17,7 @@
     <li><a href="#home">Home</a></li>
     <li><a href="#about">Our Story</a></li>
     <li><a href="#services">Services</a></li>
-    <!--<li><a href="#contact">Contact</a></li>-->
+    <li><a href="#contact">Contact</a></li>
   </ul>
 </nav>
 
@@ -26,7 +26,7 @@
   <div class="hero-content">
     <h1>Excellence in every weld.</h1>
     <p>Our team provides expert welding solutions across a wide range of materials, including mild steel, stainless steel, duplex, and aluminum. Whatever the challenge, we develop tailored solutions that ensure lasting quality and performance. </p>
-    <!--<a href="#contact" class="btn">Get in touch</a>-->
+    <a href="#contact" class="btn">Get in touch</a>
   </div>
 </section>
 
@@ -74,21 +74,26 @@ German-standard quality, implemented in South Africa — delivering precision, d
   </div>
 </section>
 
-<!-- CONTACT 
+<!-- CONTACT --> 
 <section id="contact">
   <h2>Contact Us</h2>
-  <form class="form-style">
-    <input type="text" placeholder="Full Name" required>
-    <input type="email" placeholder="Email Address" required>
-    <input type="text" placeholder="Project Type">
-    <textarea placeholder="Tell us about your project"></textarea>
+  <form action="https://api.web3forms.com/submit" method="POST" class="form-style">
+    <input type="hidden" name="access_key" value="821fe966-da7a-49e7-80bd-e72888dd2de9">
+    <input type="text" name="name" placeholder="Full Name" required>
+    <input type="email" name="email" placeholder="Email Address" required>
+    <input type="text" name="company" placeholder="Company name">
+    <input type="number" name="number" placeholder="Phone number" required>
+    <textarea name="message" placeholder="Tell us about your project"></textarea>
+    <div class="h-captcha" data-captcha="true" style="width: 100%"></div>
     <button type="submit">Send</button>
   </form>
-</section>-->
+  <script src="https://web3forms.com/client/script.js" async defer></script>
+</section>
+</form>
 <footer>
   <h3>Contact us:</h3>
   <p>Mobile: +27 69 062 3517</p>
-  <p>Email: admin@fecralwelding.co.za</p>
+  <p>Email: admin@fecral-welding.co.za</p>
   <p>© 2026 FeCrAl Welding (PTY) Ltd</p>
 </footer>
 

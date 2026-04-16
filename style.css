@@ -65,10 +65,14 @@ nav a:hover {
   color: var(--accent);
 }
 
+.nav-img {
+  width: 300px;
+}
+
 /* ===== HERO ===== */
 .hero {
   height: 90vh;
-  background: url(assets/christopher-burns-8KfCR12oeUM-unsplash.jpg) center/cover no-repeat;
+  background: url(assets/Landing\ background.jpg) center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -300,6 +304,10 @@ footer {
 
   h2 {
     font-size: 24px;
+  }
+
+  nav {
+    height: 15vh;
   }
 
   .card p {
